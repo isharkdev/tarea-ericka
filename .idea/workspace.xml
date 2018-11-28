@@ -26,9 +26,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="183">
+              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+              <folding>
+                <element signature="e#1250#1271#0" expanded="true" />
+                <element signature="e#1737#1758#0" expanded="true" />
+                <element signature="e#2170#2191#0" expanded="true" />
+                <element signature="e#2800#2821#0" expanded="true" />
+                <element signature="e#3252#3273#0" expanded="true" />
+                <element signature="e#3746#3767#0" expanded="true" />
+                <element signature="e#4758#4765#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -494,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543377772016</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Second row">
+      <created>1543378051930</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543378051930</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -548,7 +563,8 @@
     <MESSAGE value="Set equals height on cards." />
     <MESSAGE value="Set card deck" />
     <MESSAGE value="Set container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set container" />
+    <MESSAGE value="Second row" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second row" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -559,15 +575,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1250#1271#0" expanded="true" />
+            <element signature="e#1737#1758#0" expanded="true" />
+            <element signature="e#2170#2191#0" expanded="true" />
+            <element signature="e#2800#2821#0" expanded="true" />
+            <element signature="e#3252#3273#0" expanded="true" />
+            <element signature="e#3746#3767#0" expanded="true" />
+            <element signature="e#4758#4765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="183">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="e#1250#1271#0" expanded="true" />
+            <element signature="e#1737#1758#0" expanded="true" />
+            <element signature="e#2170#2191#0" expanded="true" />
+            <element signature="e#2800#2821#0" expanded="true" />
+            <element signature="e#3252#3273#0" expanded="true" />
+            <element signature="e#3746#3767#0" expanded="true" />
+            <element signature="e#4758#4765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
