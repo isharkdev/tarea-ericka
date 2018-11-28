@@ -26,13 +26,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="840">
+              <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
               <folding>
-                <element signature="e#806#827#0" expanded="true" />
-                <element signature="e#1352#1373#0" expanded="true" />
-                <element signature="e#1864#1885#0" expanded="true" />
-                <element signature="e#2941#2948#0" expanded="true" />
+                <element signature="e#892#913#0" expanded="true" />
+                <element signature="e#1560#1581#0" expanded="true" />
+                <element signature="e#2162#2183#0" expanded="true" />
+                <element signature="e#3438#3445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -446,7 +446,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543374774367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modal opening">
+      <created>1543375393681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543375393681</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add UTF-8">
+      <created>1543375452045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543375452045</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +505,9 @@
     <MESSAGE value="Adding nav bar" />
     <MESSAGE value="Adding card placeholders" />
     <MESSAGE value="Fix spacing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing" />
+    <MESSAGE value="Modal opening" />
+    <MESSAGE value="Add UTF-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UTF-8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,13 +516,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state relative-caret-position="840">
+          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
           <folding>
-            <element signature="e#806#827#0" expanded="true" />
-            <element signature="e#1352#1373#0" expanded="true" />
-            <element signature="e#1864#1885#0" expanded="true" />
-            <element signature="e#2941#2948#0" expanded="true" />
+            <element signature="e#892#913#0" expanded="true" />
+            <element signature="e#1560#1581#0" expanded="true" />
+            <element signature="e#2162#2183#0" expanded="true" />
+            <element signature="e#3438#3445#0" expanded="true" />
           </folding>
         </state>
       </provider>
