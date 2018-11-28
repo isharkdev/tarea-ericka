@@ -13,42 +13,40 @@
         <img src="images/icon.png" width="30" height="30" alt="">
     </a>
 </nav>
-<div class="card text-center">
-    <div class="card-header">
-        Featured
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Bienvenido</h5>
-        <p class="card-text">En este tutorial... blablablabla...</p>
 
+
+<div class="jumbotron">
+    <h1 class="display-4">Tutorial Geogebra</h1>
+    <p class="lead">En esta página web encontrarás la descripción de las herramientas básicas de Geogebra para apoyarte durante tu curso de "Álgebra Líneal"</p>
+</div>
+
+<div class="card text-center">
+    <div class="card-body">
         <div class="row">
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#tutorialModal">
                     <img class="card-img-top" src="./images/image-placeholder.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="card-title">Punto en el espacio</h5>
+                        <p class="card-text">Cómo crear un punto en el espacio utilizando sus coordenadas xyz.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#tutorialModal">
                     <img class="card-img-top" src="./images/image-placeholder.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="card-title">Vector</h5>
+                        <p class="card-text">Cómo crear un vector a partir de dos puntos.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" data-toggle="modal" data-target="#tutorialModal">
                     <img class="card-img-top" src="./images/image-placeholder.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up
-                            the bulk of the card's content.</p>
+                        <h5 class="card-title">Plano en el espacio</h5>
+                        <p class="card-text">Cómo crear un plano, tanto a partir de su ecuación como de tres puntos no alineados, o a partir de un punto y una recta.</p>
                     </div>
                 </div>
             </div>
@@ -56,6 +54,22 @@
     </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog" aria-labelledby="tutorialModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tutorialModalLargeTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
