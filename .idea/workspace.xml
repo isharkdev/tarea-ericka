@@ -26,16 +26,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="275">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
               <folding>
-                <element signature="e#1250#1271#0" expanded="true" />
-                <element signature="e#1737#1758#0" expanded="true" />
-                <element signature="e#2170#2191#0" expanded="true" />
-                <element signature="e#2800#2821#0" expanded="true" />
-                <element signature="e#3252#3273#0" expanded="true" />
-                <element signature="e#3746#3767#0" expanded="true" />
-                <element signature="e#4758#4765#0" expanded="true" />
+                <element signature="e#1267#1288#0" expanded="true" />
+                <element signature="e#1754#1775#0" expanded="true" />
+                <element signature="e#2187#2208#0" expanded="true" />
+                <element signature="e#2817#2838#0" expanded="true" />
+                <element signature="e#3269#3290#0" expanded="true" />
+                <element signature="e#3763#3784#0" expanded="true" />
+                <element signature="e#4775#4782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -509,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543378051930</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Set margin to second row">
+      <created>1543378273165</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1543378273165</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,7 +571,8 @@
     <MESSAGE value="Set card deck" />
     <MESSAGE value="Set container" />
     <MESSAGE value="Second row" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second row" />
+    <MESSAGE value="Set margin to second row" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set margin to second row" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -576,29 +584,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1250#1271#0" expanded="true" />
-            <element signature="e#1737#1758#0" expanded="true" />
-            <element signature="e#2170#2191#0" expanded="true" />
-            <element signature="e#2800#2821#0" expanded="true" />
-            <element signature="e#3252#3273#0" expanded="true" />
-            <element signature="e#3746#3767#0" expanded="true" />
-            <element signature="e#4758#4765#0" expanded="true" />
+            <element signature="e#1267#1288#0" expanded="true" />
+            <element signature="e#1754#1775#0" expanded="true" />
+            <element signature="e#2187#2208#0" expanded="true" />
+            <element signature="e#2817#2838#0" expanded="true" />
+            <element signature="e#3269#3290#0" expanded="true" />
+            <element signature="e#3763#3784#0" expanded="true" />
+            <element signature="e#4775#4782#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="275">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
           <folding>
-            <element signature="e#1250#1271#0" expanded="true" />
-            <element signature="e#1737#1758#0" expanded="true" />
-            <element signature="e#2170#2191#0" expanded="true" />
-            <element signature="e#2800#2821#0" expanded="true" />
-            <element signature="e#3252#3273#0" expanded="true" />
-            <element signature="e#3746#3767#0" expanded="true" />
-            <element signature="e#4758#4765#0" expanded="true" />
+            <element signature="e#1267#1288#0" expanded="true" />
+            <element signature="e#1754#1775#0" expanded="true" />
+            <element signature="e#2187#2208#0" expanded="true" />
+            <element signature="e#2817#2838#0" expanded="true" />
+            <element signature="e#3269#3290#0" expanded="true" />
+            <element signature="e#3763#3784#0" expanded="true" />
+            <element signature="e#4775#4782#0" expanded="true" />
           </folding>
         </state>
       </provider>
