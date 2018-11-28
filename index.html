@@ -56,15 +56,14 @@
         </div>
 
         <div class="card" style="width: 18rem;" data-toggle="modal"
-             data-target="#tutorialModal-3">
+             data-target="#tutorialModal-3-1">
             <img class="card-img-top" src="./images/image-placeholder.jpg"
                  alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Plano en el espacio</h5>
-                <p class="card-text">Sólo ingresa la ecuación de tu plano y presiona enter.</p>
-
-                <h5 class="card-title">Plano que pasa por tres puntos</h5>
-                <p class="card-text">Ingresa primero los tres puntos por los que pasa tu plano; estos puntos no deben de ser alineados. Luego ingresa la palabra "Plano" y entre paréntesis, las etiquetas de los puntos que habías anotado anteriormente. Ejemplo: Plano(A, B, C)</p>
+                <p class="card-text">Cómo crear un plano, tanto a partir de su ecuación
+                    como de tres puntos no alineados, o a partir de un punto y una
+                    recta.</p>
             </div>
         </div>
     </div>
@@ -117,7 +116,10 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Ingresa las coordenadas en orden x, y, z. Geogebra asumirá automáticamente que se trata de un punto y le dará formato como tal. También puedes hacerlo tú mismo escribiendo una letra mayúscula seguida de un igual, y las coordenadas entre paréntesis. Ejemplo: A = (3, 4, 5)
+                    Ingresa las coordenadas en orden x, y, z. Geogebra asumirá automáticamente que
+                    se trata de un punto y le dará formato como tal. También puedes hacerlo tú mismo
+                    escribiendo una letra mayúscula seguida de un igual, y las coordenadas entre
+                    paréntesis. Ejemplo: A = (3, 4, 5)
                 </div>
             </div>
         </div>
@@ -135,14 +137,17 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Para crear un vector necesitamos dos puntos; la dirección del vector será del primer vector al segundo vector. Después de haber creado nuestros puntos, ingresamos el texto "Vector" y entre paréntesis los puntos que ocupa. Ejemplo: Vector(A, B)
+                    Para crear un vector necesitamos dos puntos; la dirección del vector será del
+                    primer vector al segundo vector. Después de haber creado nuestros puntos,
+                    ingresamos el texto "Vector" y entre paréntesis los puntos que ocupa. Ejemplo:
+                    Vector(A, B)
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal 3 -->
-    <div class="modal fade" id="tutorialModal-3" tabindex="-1" role="dialog"
+    <!-- Modal 3-1 -->
+    <div class="modal fade" id="tutorialModal-3-1" tabindex="-1" role="dialog"
          aria-labelledby="tutorialModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -154,6 +159,64 @@
                 </div>
                 <div class="modal-body">
                     Sólo ingresa la ecuación de tu plano y presiona enter.
+
+                    <button type="button" class="close" data-dismiss="modal" data-toggle="modal"
+                            data-target="#tutorialModal-3-2" aria-label="Close">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-2 -->
+    <div class="modal fade" id="tutorialModal-3-2" tabindex="-1" role="dialog"
+         aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plano a partir de su ecuación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Sólo ingresa la ecuación de tu plano y presiona enter.
+
+                    <button type="button" class="close" data-dismiss="modal" data-toggle="modal"
+                            data-target="#tutorialModal-3-1" aria-label="Close">
+                        Anterior
+                    </button>
+                    <button type="button" class="close" data-dismiss="modal" data-toggle="modal"
+                            data-target="#tutorialModal-3-3" aria-label="Close">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-3 -->
+    <div class="modal fade" id="tutorialModal-3-3" tabindex="-1" role="dialog"
+         aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plano Perpendicular</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Al seleccionar un punto y una rectar, se crea un plano que contiene al punto y
+                    es perpendicular a la recta. Primero creamos el punto y la recta, después la
+                    palabra "Plano" y entre paréntesis las etiquetas de la recta y el punto.
+                    Ejemplo: Plano (A, b)
+
+                    <button type="button" class="close" data-dismiss="modal" data-toggle="modal"
+                            data-target="#tutorialModal-3-2" aria-label="Close">
+                        Anterior
+                    </button>
                 </div>
             </div>
         </div>
@@ -171,7 +234,9 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Para crear una recta necesitamos dos puntos. Después de haber creado nuestros puntos, ingresamos el texto "Recta" y entre paréntesis los puntos por los que pasa. Ejemplo: Recta(A, B).
+                    Para crear una recta necesitamos dos puntos. Después de haber creado nuestros
+                    puntos, ingresamos el texto "Recta" y entre paréntesis los puntos por los que
+                    pasa. Ejemplo: Recta(A, B).
                 </div>
             </div>
         </div>
@@ -189,7 +254,13 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Podemos ver dónde dos objetos comparten puntos fácilmente, si es que existe una intersección entre ellos. Para esto tenemos que tener previamente nuestros objetos: pueden ser dos planos, un plano y una esfera, un cilindro y un prisma... cualquier cosa que se nos ocurra. Después escribimos la palabra "Interseca", seguido de los objetos de los cuales queremos conocer la intersección. Ejemplo: Interseca(a, b), donde a es nuestro plano y b es nuestro cilindro.
+                    Podemos ver dónde dos objetos comparten puntos fácilmente, si es que existe una
+                    intersección entre ellos. Para esto tenemos que tener previamente nuestros
+                    objetos: pueden ser dos planos, un plano y una esfera, un cilindro y un
+                    prisma... cualquier cosa que se nos ocurra. Después escribimos la palabra
+                    "Interseca", seguido de los objetos de los cuales queremos conocer la
+                    intersección. Ejemplo: Interseca(a, b), donde a es nuestro plano y b es nuestro
+                    cilindro.
                 </div>
             </div>
         </div>
@@ -207,7 +278,9 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    Para obtener los ángulos de nuestro polígono u objeto escribimos la palabra "Ángulo" y entre paréntesis los objetos de los cuales queremos conocer los ángulos. Ejemplo: Ángulo(a)
+                    Para obtener los ángulos de nuestro polígono u objeto escribimos la palabra
+                    "Ángulo" y entre paréntesis los objetos de los cuales queremos conocer los
+                    ángulos. Ejemplo: Ángulo(a)
                 </div>
             </div>
         </div>
