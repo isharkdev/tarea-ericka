@@ -34,7 +34,7 @@
     <!-- First row -->
     <div class="card-deck">
         <div class="card" style="width: 18rem;" data-toggle="modal"
-             data-target="#tutorialModal">
+             data-target="#tutorialModal-1">
             <img class="card-img-top" src="./images/image-placeholder.jpg"
                  alt="Card image cap">
 
@@ -46,7 +46,7 @@
         </div>
 
         <div class="card" style="width: 18rem;" data-toggle="modal"
-             data-target="#tutorialModal">
+             data-target="#tutorialModal-2">
             <img class="card-img-top" src="./images/image-placeholder.jpg"
                  alt="Card image cap">
             <div class="card-body">
@@ -56,7 +56,7 @@
         </div>
 
         <div class="card" style="width: 18rem;" data-toggle="modal"
-             data-target="#tutorialModal">
+             data-target="#tutorialModal-3">
             <img class="card-img-top" src="./images/image-placeholder.jpg"
                  alt="Card image cap">
             <div class="card-body">
@@ -104,19 +104,55 @@
         </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog"
+    <!-- Modal 1 -->
+    <div class="modal fade" id="tutorialModal-1" tabindex="-1" role="dialog"
          aria-labelledby="tutorialModalTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="tutorialModalLargeTitle">Modal title</h5>
+                    <h5 class="modal-title">Punto en el espacio</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    Ingresa las coordenadas en orden x, y, z. Geogebra asumirá automáticamente que se trata de un punto y le dará formato como tal. También puedes hacerlo tú mismo escribiendo una letra mayúscula seguida de un igual, y las coordenadas entre paréntesis. Ejemplo: A = (3, 4, 5)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="tutorialModal-2" tabindex="-1" role="dialog"
+         aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vector</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Para crear un vector necesitamos dos puntos; la dirección del vector será del primer vector al segundo vector. Después de haber creado nuestros puntos, ingresamos el texto "Vector" y entre paréntesis los puntos que ocupa. Ejemplo: Vector(A, B)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="tutorialModal-3" tabindex="-1" role="dialog"
+         aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Plano a partir de su ecuación</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Sólo ingresa la ecuación de tu plano y presiona enter.
                 </div>
             </div>
         </div>

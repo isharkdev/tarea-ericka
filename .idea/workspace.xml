@@ -26,16 +26,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="e#1260#1281#0" expanded="true" />
-                <element signature="e#1748#1769#0" expanded="true" />
-                <element signature="e#2181#2202#0" expanded="true" />
-                <element signature="e#2811#2832#0" expanded="true" />
-                <element signature="e#3283#3304#0" expanded="true" />
-                <element signature="e#3797#3818#0" expanded="true" />
-                <element signature="e#4829#4836#0" expanded="true" />
+                <element signature="e#1750#1771#0" expanded="true" />
+                <element signature="e#2185#2206#0" expanded="true" />
+                <element signature="e#2817#2838#0" expanded="true" />
+                <element signature="e#3289#3310#0" expanded="true" />
+                <element signature="e#3803#3824#0" expanded="true" />
+                <element signature="e#4818#4825#0" expanded="true" />
+                <element signature="e#5810#5817#0" expanded="true" />
+                <element signature="e#6797#6804#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -565,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543379449721</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Card Overlay">
+      <created>1543379501276</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1543379501276</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,28 +647,32 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1260#1281#0" expanded="true" />
-            <element signature="e#1748#1769#0" expanded="true" />
-            <element signature="e#2181#2202#0" expanded="true" />
-            <element signature="e#2811#2832#0" expanded="true" />
-            <element signature="e#3283#3304#0" expanded="true" />
-            <element signature="e#3797#3818#0" expanded="true" />
-            <element signature="e#4829#4836#0" expanded="true" />
+            <element signature="e#1750#1771#0" expanded="true" />
+            <element signature="e#2185#2206#0" expanded="true" />
+            <element signature="e#2817#2838#0" expanded="true" />
+            <element signature="e#3289#3310#0" expanded="true" />
+            <element signature="e#3803#3824#0" expanded="true" />
+            <element signature="e#4818#4825#0" expanded="true" />
+            <element signature="e#5810#5817#0" expanded="true" />
+            <element signature="e#6797#6804#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="375">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
           <folding>
             <element signature="e#1260#1281#0" expanded="true" />
-            <element signature="e#1748#1769#0" expanded="true" />
-            <element signature="e#2181#2202#0" expanded="true" />
-            <element signature="e#2811#2832#0" expanded="true" />
-            <element signature="e#3283#3304#0" expanded="true" />
-            <element signature="e#3797#3818#0" expanded="true" />
-            <element signature="e#4829#4836#0" expanded="true" />
+            <element signature="e#1750#1771#0" expanded="true" />
+            <element signature="e#2185#2206#0" expanded="true" />
+            <element signature="e#2817#2838#0" expanded="true" />
+            <element signature="e#3289#3310#0" expanded="true" />
+            <element signature="e#3803#3824#0" expanded="true" />
+            <element signature="e#4818#4825#0" expanded="true" />
+            <element signature="e#5810#5817#0" expanded="true" />
+            <element signature="e#6797#6804#0" expanded="true" />
           </folding>
         </state>
       </provider>
